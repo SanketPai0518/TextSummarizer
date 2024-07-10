@@ -13,7 +13,7 @@ os.makedirs(log_dir, exist_ok=True)
 
 
 logging.basicConfig(
-    level=logging.INFO,  # Set logging level to INFO
+    level=logging.INFO,  
     format=logging_str,
     handlers=[
         logging.FileHandler(log_filepath),  # Log to a file
@@ -22,4 +22,4 @@ logging.basicConfig(
 )
 
 # Get a logger instance
-logger = logging.getLogger("TextSummarizerLogger")
+logger = logging.getLogger("TXT_SUMMARIZERlogger")
