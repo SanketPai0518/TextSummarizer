@@ -4,8 +4,8 @@ with open("README.md", 'r',encoding='utf-8') as f:
     long_description = f.read()
 __version__="0.0.0"
 REPO_NAME="TextSummarizer"
-AUTHOR_USER_NAME="Sanket Pai"
-SRC_REPO='Textsummarizer'
+AUTHOR_USER_NAME="SanketPai0518"
+SRC_REPO='TextSummarizer'
 Author_email='sanketsushant18@gmail.com'
 
 setuptools.setup(
