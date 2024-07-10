@@ -24,3 +24,4 @@ logging.basicConfig(
 # Get a logger instance
 logger = logging.getLogger("TXT_SUMMARIZERlogger")
 logger.setLevel(logging.INFO)
+sys.path.append(log_filepath)
