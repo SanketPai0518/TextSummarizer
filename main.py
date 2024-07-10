@@ -1,2 +1,3 @@
-from TextSummarize.logging import logger
-logger.info("welcome to my custom logging")
+from Textsummarizer.logging import logger
+
+logger.info("Welcome to my custom logging")
