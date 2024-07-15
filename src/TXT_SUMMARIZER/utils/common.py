@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from TXT_SUMMARIZER.logging import logger
+from TXT_SUMMARIZER.logging.__innit__ import logger
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
@@ -23,9 +23,9 @@ def read_yaml (path_to_yaml: Path):
     """
     try:
         with open(path_to_yamL) as yaml_file:
-        content = yaml.safe_load (yaml_file)
-        logger.info(f"yaml file: {path_to_yamL} loaded successfully")
-        return ConfigBox(content)
+            content = yaml.safe_load (yaml_file)
+            logger.info(f"yaml file: {path_to_yamL} loaded successfully")
+            return ConfigBox(content)
     except BoxValueError:
         raise ValueError ("yaml file is empty")
     except Exception as e:
