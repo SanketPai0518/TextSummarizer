@@ -1,0 +1,15 @@
+artifacts: artifacts
+# This line maps the key "artifacts" to the value "artifacts".
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  # Maps "root_dir" to "artifacts/data_ingestion" under "data_ingestion".
+
+  source_url: https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip
+  # Maps "source_url" to the specified URL under "data_ingestion".
+
+  local_data_files: artifacts/data_ingestion/data.zip
+  # Maps "local_data_files" to "artifacts/data_ingestion/data.zip" under "data_ingestion".
+
+  unzip_dir: artifacts/data_ingestion/
+  # Maps "unzip_dir" to "artifacts/data_ingestion/" under "data_ingestion".
