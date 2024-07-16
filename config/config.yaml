@@ -11,5 +11,5 @@ data_ingestion:
   local_data_files: artifacts/data_ingestion/data.zip
   # Maps "local_data_files" to "artifacts/data_ingestion/data.zip" under "data_ingestion".
 
-  unzip_dir: artifacts/data_ingestion/
+  unzip_dir: artifacts/data_ingestion
   # Maps "unzip_dir" to "artifacts/data_ingestion/" under "data_ingestion".
