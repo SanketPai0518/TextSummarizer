@@ -1,5 +1,5 @@
 # end to end texxt summarization project
-
+(my first full end to end project built from scartch)
 # project workflow
 
 1. update config.yaml file
@@ -10,4 +10,4 @@
 6. update pipeline
 7. update main.py
 8. update app.py
-9. 
+   PROJECT STILL UNDERWAY!
