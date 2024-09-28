@@ -42,7 +42,7 @@ def create_directories(path_to_directories: list, verbose=True):
     for path in path_to_directories:
         os. makedirs (path, exist_ok=True)
         if verbose:
-            logger. nfo(f"created directory at: {path}")
+            logger.info(f"created directory at: {path}")
 
 @ensure_annotations 
 def get_size(path: Path):
